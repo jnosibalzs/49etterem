@@ -1,0 +1,35 @@
+.galeria{
+    background-color: #FFE4C4;
+    color: darkorange;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,.8)),url(/gallery/bg/bg-kep6.jpg);
+    width: 100%;
+    min-height: 100vh;
+
+    .galeria-title{
+        border-left: 8px solid darkorange;
+        margin: auto;
+        font-size: clamp(1.5rem,5vw,2.5rem);
+        color: white;
+    }
+    .name{
+        font-size: clamp(1rem,8vw,1.6rem);
+        margin: 1.5rem auto .3rem auto;
+    color: darkorange;
+    }
+
+    .galeria-content{
+        margin-bottom: 10rem;
+    }
+    .event-date{
+        border-radius: 360%;
+        background-color: darkorange;
+    }
+    #events{
+        min-height: 42vh;
+    }
+    .person-desc{
+        color: white;
+    }
+
+
+}

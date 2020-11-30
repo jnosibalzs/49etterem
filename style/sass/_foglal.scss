@@ -1,0 +1,26 @@
+//flexbox system
+//grid systems
+
+.foglal{
+    background-color: #A9A9A9;
+    color:white;
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.4),rgba(0,0,0,.8)),url(/gallery/bg/bg-kep1.jpg);
+
+    .foglal-title{
+        border-left: 8px solid darkorange;
+        margin: auto;
+        font-size: clamp(1.5rem,5vw,2.5rem);
+    
+    }
+    .dat{
+        color: black;
+    }
+    
+    .submitbtn{
+        background-color: darkorange;
+    }
+    
+}

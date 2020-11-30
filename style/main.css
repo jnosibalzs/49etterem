@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.folapkep {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(/gallery/bg/bg-kep2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(/gallery/bg/bg-kep2.jpg);
+}
+
+.folapkep .folap {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.folapkep .folap #bg-video {
+  position: fixed;
+  top: 0;
+  left: 0x;
+  height: 100%;
+  width: 100%;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  z-index: -1;
+}
+
+.folapkep .folap .title-section .title {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+
+.folapkep .folap .title-section .title-desc {
+  color: #c9c9c9;
+  font-size: clamp(0.8rem, 2.2vw, 1.2rem);
+}
+
+.folapkep .folap .title-section button {
+  font-size: clamp(0.9rem, 2.2vw, 1.4rem);
+}
+
+.folapkep .folap .school-job-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 25%;
+  position: absolute;
+  top: 37.5%;
+  left: 25%;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 16px;
+  border: 1px solid white;
+}
+
+.folapkep .folap .school-job-container .school-job-title {
+  color: red;
+  font-size: 24px;
+}
+
+.folapkep .folap .school-job-container .school-job-desc {
+  font-size: 1rem;
+  color: red;
+}
+
+.folapkep .folap .school-job-container .exit {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  font-size: 24px;
+  color: red;
+  border: 1px solid white;
+  background-color: black;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.rolunk {
+  min-height: 100vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8))), url(/gallery/bg/bg-kep4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(/gallery/bg/bg-kep4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.rolunk .rolunk-title {
+  border-left: 8px solid darkorange;
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  color: white;
+}
+
+.rolunk .rolunk-desc-title {
+  font-size: clamp(2rem, 8vw, 2.3rem);
+  font-weight: bold;
+  color: darkorange;
+}
+
+.rolunk .rolunk-desc {
+  font-size: clamp(1rem, 3.5vw, 1.3rem);
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+.galeria {
+  background-color: #FFE4C4;
+  color: darkorange;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8))), url(/gallery/bg/bg-kep6.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(/gallery/bg/bg-kep6.jpg);
+  width: 100%;
+  min-height: 100vh;
+}
+
+.galeria .galeria-title {
+  border-left: 8px solid darkorange;
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  color: white;
+}
+
+.galeria .name {
+  font-size: clamp(1rem, 8vw, 1.6rem);
+  margin: 1.5rem auto .3rem auto;
+  color: darkorange;
+}
+
+.galeria .galeria-content {
+  margin-bottom: 10rem;
+}
+
+.galeria .event-date {
+  border-radius: 360%;
+  background-color: darkorange;
+}
+
+.galeria #events {
+  min-height: 42vh;
+}
+
+.galeria .person-desc {
+  color: white;
+}
+
+.etlap {
+  background-color: #FFE4C4;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(/gallery/bg/bg-kep5.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/gallery/bg/bg-kep5.jpg);
+  width: 100%;
+  min-height: 100vh;
+}
+
+.etlap .name {
+  font-size: clamp(1rem, 8vw, 1.6rem);
+  margin: 1.5rem auto .3rem auto;
+  color: white;
+}
+
+.etlap .etlap-title {
+  border-left: 8px solid darkorange;
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+.etlap .eletlek-alul-title {
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  text-align: center;
+  color: white;
+}
+
+.etlap .etelek-title {
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+.etlap .box {
+  border-color: darkorange;
+  width: 23rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .etlap .box {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .etlap .box {
+    width: 18rem;
+  }
+}
+
+.etlap .box .btn-success {
+  background-color: darkorange;
+  border: darkorange;
+}
+
+.etlap .box .btn-success:hover {
+  background-color: darkorange;
+}
+
+.etlap .box .box-title {
+  color: darkorange;
+}
+
+.etlap .box .box-title-desc {
+  color: #e0e0e0;
+}
+
+.etlap .box strong {
+  color: darkorange;
+}
+
+.foglal {
+  background-color: #A9A9A9;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(/gallery/bg/bg-kep1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(/gallery/bg/bg-kep1.jpg);
+}
+
+.foglal .foglal-title {
+  border-left: 8px solid darkorange;
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+.foglal .dat {
+  color: black;
+}
+
+.foglal .submitbtn {
+  background-color: darkorange;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
